@@ -38,4 +38,4 @@ if ($MachineID -eq $null)
    
   
    Write-Output "[$(Get-Date)]: Bootstrapping Plex Media Server.exe.. "
-   & C:\Plex\Plex Media Server.exe
+   & "C:\Plex\Plex Media Server.exe"
