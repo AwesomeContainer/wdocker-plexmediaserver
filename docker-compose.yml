@@ -1,6 +1,6 @@
 version: '2.1'  
 services:  
-  caddy:
+  plexmediaserver:
     build: .
     image: awesomecontainer/wdocker-plexmediaserver:${DOCKERTAG:-latest}
     container_name: plexmediaserver
