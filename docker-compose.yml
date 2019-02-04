@@ -16,4 +16,3 @@ services:
       - 1900:1900/udp
     environment:
       - PLEX_MEDIA_SERVER_INFO_DEVICE=docker
-    stdin_open: true
